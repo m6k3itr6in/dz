@@ -9,12 +9,18 @@
 
 <body>
     <header>
-        <ul>
-            <li><a href="index.html">Главная</a></li>
-            <li><a href="catalog.html">Каталог</a></li>
-            <li><a href="contacts.html">Контакты</a></li>
-        </ul>
-        <hr/>
+
+        <img src="Безымянный.png" alt="inci">   
+        <div class="inci">
+            <ul>
+                <li><a href="index.html">Главная</li>
+                <li><a href="catalog.html" ​target="_blank" ​​>Каталог</a></li>
+                <li><a href="contacts.html">Контакты</a></li>
+            </ul>
+        </div>
+
+        <hr />
+
     </header>
 
     <h1>ЛУЧШИЕ ИЗ ЛУЧШИХ!</h1>
@@ -58,7 +64,7 @@
         </div>
     </div>
 
-    <h1>ПО СКИДКЕ!</h1>
+    <!-- <h1>ПО СКИДКЕ!</h1>
 
     <div class="sales">
         <div class="firstbooksale">
@@ -76,7 +82,7 @@
         <div class="fifthbooksale">
 
         </div>
-    </div>
+    </div> -->
 
     <style>
         .bestofthebest {
@@ -89,26 +95,60 @@
             gap: 50px;
         }
 
-        li {
+        .inci {
             display: flex;
+            width: 100%;
+            -webkit-box-pack: center;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        ul {
+            margin: 0px 16px;
+            padding: 5px 0px;
+            color: rgb(0, 0, 0);
+            font-size: 24px;
+            line-height: 110%;
+            font-weight: 400;
+        }
+
+        li {
             list-style: none;
             float: left;
             width: 100px;
             margin: 5px;
-            display: flex;
-            justify-content: space-between;
         }
 
         hr {
-            display: flex;
             clear: both;
             margin: 10px 0;
             color: black;
         }
 
+        img {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
         h1{
             display: flex;
             justify-content: center;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+
+        p {
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+
+        a {
+            text-decoration: none;
+            color: #000;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+
+        h2 {
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
         }
 
     </style>
