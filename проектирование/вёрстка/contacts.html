@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Контакты</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <header>
+
+        <img src="inci_squad.png" alt="inci">
+
+        <div class="inci">
+            <ul>
+                <li><a href="index.html" class="a1">Главная</li>
+                <li><a href="catalog.html" class="a1" ​​>Каталог</a></li>
+                <li><a href="contacts.html" class="a1">Контакты</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <hr />
+
+    <div class="partners">
+        <div class="partner1">
+            <h3 class="h">
+                Маслов Александр
+            </h3>
+
+            <p><i class="h">Управляющий партнёр</i></p>
+            <p><b class="h">E-mail: </b><a href="#">sanechekk1337@gmail.com</a></p>
+            <p><b class="h">Моб-тел: </b><a href="#">+7-967-584-49-09</a></p>
+        </div>
+
+        <div class="partner2">
+            <h3 class="h">
+                Брудков Дмитрий
+            </h3>
+
+            <p><i class="h">Партнёр</i></p>
+            <p><b class="h">E-mail: </b><a href="#">dimasik228@gmail.com</a></p>
+            <p><b class="h">Моб-тел: </b> <a href="#">+7-876-432-21-45</a></p>
+        </div>
+
+        <div class="addresы">
+            <h3 class="h">
+                Наш адрес:
+            </h3>
+
+            <p><a href="#" style="text-decoration: none;">Россия, г.Губкин, ул.Дзержинского, 15А</a></p>
+        </div>
+
+        <div class="working_hours">
+            <h3 class="h">
+                Время работы:
+            </h3>
+
+            <p><a href="#" style="text-decoration: none;">8-00 - 18-00 (по будням)</a></p>
+            <p><a href="#" style="text-decoration: none;">10-00 - 16-00 (по выходным)</a></p>
+        </div>
+
+        <div class="write_to_us">
+            <h3 class="h">
+                Напишите нам:
+            </h3>
+
+            <form>
+                <label for="email" style = "font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">Email:</label><br>
+                <input type="email" id="email" placeholder="Введите ваш email" maxlength="50"><br><br>
+
+                <label for="email" style = "font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">Имя:</label><br>
+                <input type="email" id="email" placeholder="Введите вашу имя" maxlength="50"><br><br>
+
+                <label for="email" style = "font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">Тема:</label><br>
+                <input type="email" id="email"          placeholder="Введите вашу тему"     maxlength="50"><br><br>
+
+                <label for="email" style = "font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">Сообщение:</label><br>
+                <textarea></textarea>
+            </form>
+
+            <a href="#" class="btn">Отправить</a>
+
+        </div>
+        
+
+    </div>
+
+    <footer>
+
+        <hr />
+
+        <div class="offset">
+
+            <div class="offset1" style="margin-top: 20px;">
+                <p>&copy; 2004-2025</p>
+                <p>Издательство Шухово</p>
+            </div>
+
+        </div>
+
+    </footer>
+
+    <style>
+        img {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .partners {
+            display: flex;
+            gap: 70px
+        }
+
+        .inci {
+            display: flex;
+            width: 100%;
+            -webkit-box-pack: center;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        ul {
+            margin: 0px 16px;
+            padding: 5px 0px;
+            color: rgb(0, 0, 0);
+            font-size: 24px;
+            line-height: 110%;
+            font-weight: 400;
+        }
+
+        .a1 {
+            text-decoration: none;
+            color: #000;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+
+        .h {
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+
+        .btn {
+            display: inline-block;
+            text-decoration: none;
+            font-size: 13px;
+            padding: 10px 30px;
+            margin-top: 5px;
+            color: #D7D7D7;
+            background-color: #1D1D1D;
+            border-radius: 20px;
+        }
+
+        input[type="email"] {
+            padding: 10px;
+            font-size: 16px;
+            border: 2px solid #ccc;
+            border-radius: 5px;
+            transition: border-color 0.3s ease, color 0.3s ease; /* Плавное изменение */
+        }
+
+        input[type="email"]:focus {
+            border-color: red; /* Цвет рамки */
+            color: red; /* Цвет текста */
+            outline: none; /* Убираем стандартное выделение */
+            text-transform: uppercase;
+        }
+    </style>
+
+</body>
+
+</html>

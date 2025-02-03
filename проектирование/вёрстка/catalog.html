@@ -4,13 +4,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Каталог</title>
+    <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
     <header>
 
-        <img src="Безымянный.png" alt="inci">   
+        <img src="inci.png" alt="inci">
         <div class="inci">
             <ul>
                 <li><a href="index.html">Главная</li>
@@ -27,42 +28,71 @@
 
     <div class="bestofthebest">
         <div class="firstbookbest">
-            <img src="https://ir.ozone.ru/s3/multimedia-p/wc1000/6407974201.jpg" width="233" height="345" alt="1Q84">
+            <a href="1bookbest.html">
+                <img src="https://ir.ozone.ru/s3/multimedia-p/wc1000/6407974201.jpg" width="233" height="345"
+                    alt="1Q84">
+            </a>
             <h2>1Q84</h2>
-            <p>1000₽</p>
-            <button>Купить</button>
+            <a href="#" class="btn">Купить</a>
         </div>
+
+
         <div class="secondbookbest">
-            <img src="https://ir.ozone.ru/s3/multimedia-c/wc1000/6206145768.jpg" width="233" height="345"
-            alt="Кровавый меридиан">
+            <a href="2bookbest.html">
+                <img src="https://ir.ozone.ru/s3/multimedia-c/wc1000/6206145768.jpg" width="233" height="345"
+                    alt="Кровавый меридиан">
+            </a>
             <h2>Кровавый Меридин</h2>
-            <p>1000₽</p>
-            <button>Купить</button>
+            <a href="#" class="btn">Купить</a>
         </div>
+
+
         <div class="thirdbookbest">
-            <a href = "3bookbest.html">
+            <a href="3bookbest.html">
                 <img src="https://ir.ozone.ru/s3/multimedia-1-q/wc1000/7104269150.jpg" width="233" height="345"
-                alt="Бледный огонь">
+                    alt="Бледный огонь">
             </a>
             <h2>Бледный Огонь</h2>
-            <p>1000₽</p>
-            <button>Купить</button>
+            <a href="#" class="btn">Купить</a>
         </div>
+
+
         <div class="fourthbookbest">
-            <img src="https://ir.ozone.ru/s3/multimedia-e/wc1000/6025586726.jpg" width="233" height="345"
-            alt="Здоровое общество">
+            <a href="4bookbest.html">
+                <img src="https://ir.ozone.ru/s3/multimedia-e/wc1000/6025586726.jpg" width="233" height="345"
+                    alt="Здоровое общество">
+            </a>
             <h2>Здоровое Общество</h2>
-            <p>1000₽</p>
-            <button>Купить</button>
+            <a href="#" class="btn">Купить</a>
         </div>
+
+
         <div class="fifthbookbest">
-            <img src="https://ir.ozone.ru/s3/multimedia-5/wc1000/6711555965.jpg" width="233" height="345"
-            alt="Дневник памяти">
+            <a href="5bookbest.html">
+                <img src="https://ir.ozone.ru/s3/multimedia-5/wc1000/6711555965.jpg" width="233" height="345"
+                    alt="Дневник памяти">
+            </a>
             <h2>Дневник Памяти</h2>
-            <p>1000₽</p>
-            <button>Купить</button>
+            <a href="#" class="btn">Купить</a>
         </div>
+
+
     </div>
+
+    <footer>
+
+        <hr />
+
+        <div class="offset">
+
+            <div class="offset1" style="margin-top: 20px;">
+                <p>&copy; 2004-2025</p>
+                <p>Издательство Шухово</p>
+            </div>
+
+        </div>
+
+    </footer>
 
     <!-- <h1>ПО СКИДКЕ!</h1>
 
@@ -112,13 +142,6 @@
             font-weight: 400;
         }
 
-        li {
-            list-style: none;
-            float: left;
-            width: 100px;
-            margin: 5px;
-        }
-
         hr {
             clear: both;
             margin: 10px 0;
@@ -131,7 +154,7 @@
             margin-right: auto;
         }
 
-        h1{
+        h1 {
             display: flex;
             justify-content: center;
             font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -150,7 +173,28 @@
         h2 {
             font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
         }
+        
+        footer {
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            height: 100px;
+        }
 
+        .btn {
+            text-decoration: none;
+            font-size: 18px;
+            padding: 10px 30px;
+            color: #D7D7D7;
+            background-color: #1D1D1D;
+            border-radius: 20px;
+        }
+
+        .offset {
+            display: flex;
+            gap: 70px;
+        }
     </style>
 </body>
 

@@ -5,17 +5,17 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>inci | Книжный магазин</title>
-    <link href="style.css" />
+    <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
     <header>
 
-        <img src="Безымянный.png" alt="inci">
+        <img src="inci_club.png" alt="inci">
         <div class="inci">
             <ul>
                 <li><a href="index.html">Главная</li>
-                <li><a href="catalog.html" ​target="_blank" ​​>Каталог</a></li>
+                <li><a href="catalog.html" target="_blank" >Каталог</a></li>
                 <li><a href="contacts.html">Контакты</a></li>
             </ul>
         </div>
@@ -28,17 +28,20 @@
         <p center>Приветствуем в нашем книжном магазине!</p>
     </h1>
 
-    <!-- <hr /> -->
+
 
     <footer>
 
-        <img src="Безымянный.png" alt="inci" style="float: left;">
+        <hr />
 
+        <img src="inci.png" alt="inci" style="float: left;">
 
         <div class="offset">
 
             <div class="offset1">
-                <p>&copy; 2004-2025</p>
+                <h2
+                    style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;  font-weight: normal;">
+                    &copy; 2004-2025</h2>
                 <p>Издательство Шухово</p>
             </div>
 
@@ -62,10 +65,12 @@
 
     </footer>
 
+    
+
     <style>
-            p {
-                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-            }
+        p {
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
 
         img {
             display: block;
@@ -96,35 +101,15 @@
             font-weight: 400;
         }
 
-        li {
-            list-style: none;
-            float: left;
-            width: 100px;
-            margin: 5px;
-        }
-
-        hr {
-            clear: both;
-            margin: 10px 0;
-            color: black;
-        }
-
-        footer {
-            margin-top: auto; 
-            text-align: left;
-            padding: 10px; 
-        }
-
         .offset {
-            display: flex;
-            gap: 70px; /* отступ */
+            display: flex;  
+            gap: 70px;
         }
-
 
         body {
             display: flex;
             flex-direction: column;
-            min-height: 100vh; 
+            min-height: 100vh;
             margin: 0;
         }
     </style>
